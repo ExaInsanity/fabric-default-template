@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Exa Template Mod
 
 ## Setup
 
