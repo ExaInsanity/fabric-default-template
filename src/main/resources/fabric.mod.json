@@ -3,14 +3,14 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ExaModTemplate",
+  "description": "Some sort of mod, apparently",
   "authors": [
-    "Me!"
+    "ExaInsanity"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://insanity.network/",
+    "sources": "https://github.com/ExaInsanity/"
   },
 
   "license": "CC0-1.0",
@@ -19,19 +19,19 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "network.insanity.exa.modid.Main"
     ]
   },
   "mixins": [
     "modid.mixins.json"
   ],
+  "accessWidener": "modid.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
   },
-  "suggests": {
-    "flamingo": "*"
+  "breaks": {
+    "optifabric": "*"
   }
 }
